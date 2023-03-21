@@ -1,15 +1,13 @@
-import React from "react";
-import Login from "./Login";
-
-import "./styles.css";
+import Register from './Register';
+import Login from './Login';
 
 function App() {
-  return(
-    <div>
-      <Login/>
-    </div>
-  )
+
+  return (
+    <main className="App">
+      <Login />
+    </main>
+  );
 }
 
 export default App;
-
